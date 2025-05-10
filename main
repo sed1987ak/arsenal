@@ -1,1 +1,8 @@
 
+git clone https://github.com/sec1987ak/arsenal.git  # Clone the repo
+cd arsenal
+git checkout main                                   # Switch to main branch
+# Add your app files here (e.g., index.html, package.json)
+git add .
+git commit -m "Add Firebase app files"
+git push origin main                               # Push to GitHub
